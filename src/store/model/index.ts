@@ -97,6 +97,7 @@ import {Mediamarkt} from './mediamarkt';
 import {MediamarktAt} from './mediamarkt-at';
 import {Medimax} from './medimax';
 import {Megekko} from './megekko';
+import {Mediaexpert} from './mediaexpert';
 import {MemoryExpress} from './memoryexpress';
 import {MicroCenter} from './microcenter';
 import {MightyApe} from './mightyape';
@@ -271,6 +272,7 @@ export const storeList = new Map([
   [Ldlc.name, Ldlc],
   [LdlcEs.name, LdlcEs],
   [Materiel.name, Materiel],
+  [Mediaexpert.name, Mediaexpert],
   [MemoryExpress.name, MemoryExpress],
   [MicroCenter.name, MicroCenter],
   [MicrosoftCA.name, MicrosoftCA],
