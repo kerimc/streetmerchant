@@ -39,6 +39,7 @@ export type Brand =
 export type Series =
   | 'test:series'
   | 'captcha-deterrent'
+  | '1660Super'
   | '3060'
   | '3060ti'
   | '3070'
@@ -287,7 +288,7 @@ export type Store = {
   };
   labels: Labels;
   name: string;
-  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
+  currency: '£' | '$' | '€' | 'R$' | 'kr.' | 'PLN'| '';
   setupAction?: (browser: Browser) => void;
   /**
    * The range of status codes which considered successful, i.e. without error

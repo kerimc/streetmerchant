@@ -168,6 +168,7 @@ import {logger} from '../../logger';
 import chalk from 'chalk';
 import {UltimaInformatica} from './utlimainformatica';
 import {XtremMedia} from './xtremmedia';
+import {Xkom} from './xkom';
 import {MicrosoftCA} from './microsoft-ca';
 
 export const storeList = new Map([
@@ -336,6 +337,7 @@ export const storeList = new Map([
   [WellsTechnology.name, WellsTechnology],
   [Wipoid.name, Wipoid],
   [Xbox.name, Xbox],
+  [Xkom.name, Xkom],
   [XtremMedia.name, XtremMedia],
   [Zotac.name, Zotac],
 ]);
